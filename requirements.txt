@@ -1,0 +1,11 @@
+ase
+pyscf
+torch
+
+# Check your CUDA version via `nvcc --version`
+
+# 'gpu4pyscf-cuda12x', # for CUDA version 12.x 
+# 'cutensor-cu12' # for CUDA version 12.x
+
+# 'gpu4pyscf-cuda11x', # for CUDA version 11.x 
+# 'cutensor-cu11' # for CUDA version 11.x
