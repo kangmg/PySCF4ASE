@@ -28,7 +28,9 @@ NVCC_VERSION=$(nvcc --version | grep -oP 'release \K[0-9]+\.[0-9]+' | cut -d'.' 
 echo -e "\033[1;32mYour CUDA Version:\033[0m $NVCC_VERSION"
 echo ""
 
+
 # Add packages to requirements.txt based on CUDA version
+echo "" >> requirements.txt
 if [ "$NVCC_VERSION" -eq 11 ]; then
     echo "gpu4pyscf-cuda11x" >> requirements.txt
     echo "cutensor-cu11" >> requirements.txt
