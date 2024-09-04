@@ -1,6 +1,7 @@
 ase
 pyscf
 torch
+pyscf-dispersion
 
 # Check your CUDA version via `nvcc --version`
 
