@@ -16,7 +16,7 @@ setup(
         'ase',
         'torch',
         'pyscf',
-        
+        'pyscf-dispersion'
         # Check your CUDA version via `nvcc --version`
 
         # 'gpu4pyscf-cuda12x', # for CUDA version 12.x 
