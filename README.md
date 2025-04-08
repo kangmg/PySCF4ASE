@@ -1,3 +1,6 @@
+> [!WARNING]
+> Since [version 1.4](https://github.com/pyscf/gpu4pyscf/releases/tag/v1.4.0), gpu4pyscf officially supports the [ASE calculator](https://github.com/pyscf/gpu4pyscf/blob/master/gpu4pyscf%2Ftools%2Fase_interface.py), and therefore, this repository has been **deprecated**.
+
 # PySCF4ASE
 PySCF Calculator for ASE Interface
 
